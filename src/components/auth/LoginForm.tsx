@@ -2,7 +2,6 @@ import { signIn } from "@/actions/auth";
 
 
 export default function LoginForm() {
-
   return (
     <form action={signIn}>
       <div className="flex flex-col gap-2 sm:w-fit max-sm:mt-5">
