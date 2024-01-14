@@ -1,6 +1,6 @@
 'use server'
 import { redirect } from "next/navigation"
-import { createActionSupabase } from "@/supabase"
+import { createActionSupabase } from "../supabase"
 
 export async function signIn(formData: FormData) {
   const supabase = createActionSupabase()

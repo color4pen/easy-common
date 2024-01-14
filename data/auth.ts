@@ -1,5 +1,5 @@
 'use server'
-import { createDataSupabase } from '@/supabase';
+import { createDataSupabase } from '../supabase';
 import { unstable_noStore as noStore } from 'next/cache';
 
 export async function getUser() {

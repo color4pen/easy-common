@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "daisyui": "^4.6.0",
+    "easy-common": "github:color4pen/easy-common",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
